@@ -4,7 +4,7 @@ import torch
 import numpy as np
 import os
 import cv2
-from util.flow_util import flow2img
+from ffwm.util.flow_util import flow2img
 from os.path import basename
 
 def tensor2im(input_image, idx=0, imtype=np.uint8):

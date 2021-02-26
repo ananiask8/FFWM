@@ -14,7 +14,7 @@ import importlib
 import os
 from os.path import join
 import torch.utils.data
-from data.base_dataset import BaseDataset
+from ffwm.data.base_dataset import BaseDataset
 
 
 def find_dataset_using_name(dataset_name):
@@ -51,7 +51,7 @@ def create_dataset(opt, is_val=False):
     This function wraps the class CustomDatasetDataLoader
     return the testing dataset is isval is true, otherwise return training dataset
     Example:
-        >>> from data import create_dataset
+        >>> from ffwm.data import create_dataset
         >>> dataset = create_dataset(opt)
     """
 

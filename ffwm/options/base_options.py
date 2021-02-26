@@ -1,9 +1,9 @@
 import argparse
 import os
-from util import util
+from ffwm.util import util
 import torch
-import models
-import data
+from ffwm import data, models
+
 
 class BaseOptions():
     """This class defines options used during both training and test time.

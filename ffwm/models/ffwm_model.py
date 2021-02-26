@@ -2,7 +2,7 @@ import torch
 from .base_model import BaseModel
 from . import losses, external_function, base_networks
 import torch.nn.functional as F
-from lightcnn.light_cnn import LightCNN_29Layers, LightCNN_29Layers_v2
+from ffwm.lightcnn.light_cnn import LightCNN_29Layers, LightCNN_29Layers_v2
 import itertools
 
 """

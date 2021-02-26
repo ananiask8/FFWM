@@ -1,7 +1,7 @@
 import os, cv2, torch
 import numpy as np
 from os.path import basename, join
-from data.base_dataset import BaseDataset
+from ffwm.data.base_dataset import BaseDataset
 
 """
 Face Dataset

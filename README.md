@@ -35,7 +35,7 @@ The source code for our paper "Learning Flow-based Feature Warping For Face Fron
 
 ### Data Preparation
 
-You can use the scripts in [data_process](./data_process) to prepare your data.
+You can use the scripts in [data_process](ffwm/data_process) to prepare your data.
 
 The data folder is structured as follows:
 

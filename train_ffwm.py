@@ -22,10 +22,10 @@ import time
 import torch
 import numpy as np
 from os.path import join
-from options.train_options import TrainOptions
-from data import create_dataset
-from models import create_model
-from util.visualizer import Visualizer
+from ffwm.options.train_options import TrainOptions
+from ffwm.data import create_dataset
+from ffwm.models import create_model
+from ffwm.util.visualizer import Visualizer
 from collections import OrderedDict
 
 def sum_loss(epoch_loss, batch_loss, iter):
